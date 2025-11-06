@@ -6,7 +6,7 @@ import userRouter from './routes/userRoutes.js'
 import taskRouter from './routes/taskRoutes.js';
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 4001;
 
 //Connect Database
  await connectDB();
